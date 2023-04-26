@@ -1,5 +1,6 @@
 #0.함수란 무엇인가? (추후 배울 내용이므로 참고만)
 #프로그램속 작은 프로그램, 많은 기본 프로그램이 파이썬에 내장되어 있고, 그것을 내장함수라고 부르고, 가끔은 library라고 표현하기도 한다.
+# 아래 코드의 list(문자열)은 문자열을 잘라 list로 변환한것. 내장함수부터 수업후에 customizing함수 수업
 a = "hobby"
 def countCharacter(character):
     count = 0
