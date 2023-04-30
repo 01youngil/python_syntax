@@ -20,7 +20,7 @@
 #     print("걸어가시오")
 
 
-#파이썬에서는 들여쓰기가 매우 중요하다. 들여쓰기를 통해 논리의 흐름을 따진다.
+# #파이썬에서는 들여쓰기가 매우 중요하다. 들여쓰기를 통해 논리의 흐름을 따진다.
 # money = 13000
 # hungryornot = True
 # if money >= 10000:
@@ -35,15 +35,15 @@
 # #A and B >> A, B모두 True 일때 True
 # a = True
 # b = False
-# if not a:
+# if a & b:
 #     print("참입니다.")
 # else:
 #     print("거짓입니다.")
-#
+
 # #A or B >> A, B 둘중하나라도 True 일때 True
 # a = True
 # b = False
-# if not a:
+# if a | b:
 #     print("참입니다.")
 # else:
 #     print("거짓입니다.")
@@ -90,8 +90,8 @@
 #     print("걸어가라")
 
 #조건부표현식, 다른언어에서는 3항연산자라 표현
-# a=3
-# print("성공했을때 실행문") if a > 10 else print("실패했을때 실행문")
-# a=30
-# message = "성공했을때 실행문" if a > 10 else "실패했을때 실행문"
-# print(message)
+a=3
+print("성공했을때 실행문") if a > 10 else print("실패했을때 실행문")
+a=30
+message = "성공했을때 실행문" if a > 10 else "실패했을때 실행문"
+print(message)

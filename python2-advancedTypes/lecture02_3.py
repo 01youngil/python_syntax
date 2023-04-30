@@ -9,23 +9,21 @@
 # #딕셔너리 쌍 추가하기 dic[key] = value 방식으로 추가.
 # dic1['신분'] = '학생'
 # print(dic1)
-#
+
 # #딕셔너리 쌍 삭제하기 del dic[key]방식으로 삭제.
 # del dic1['이름']
 # print(dic1)
 
-#딕셔너리 만들때 주의사항
-#key가 겹치면 안된다. >> 겹칠 경우 나중에 선언한 key:value가 최종값이 됨.
+# # 딕셔너리 만들때 주의사항
+# # key가 겹치면 안된다. >> 겹칠 경우 나중에 선언한 key:value가 최종값이 됨.
 # dic1 = {'a':1, 'b':2, 'a':3}
 # print(dic1)
 
-# #딕셔너리 key리스트, value리스트 뽑아내기(많이 쓰이는 함수)
-# dic1 = {'a':1, 'b':2, 'c':3}
+#딕셔너리 key리스트, value리스트 뽑아내기(많이 쓰이는 함수)
 # print(dic1.keys())
 # print(dic1.values())
 
-#딕셔너리를 튜플형태의 리스트로 담기 >> .items() >> key, value를 세트로 묶어 처리해야 하는 경우 >> dic1자체를 바꾸지는 않음.
-
+# # 딕셔너리를 튜플형태의 리스트로 담기 >> .items() >> key, value를 세트로 묶어 처리해야 하는 경우 >> dic1자체를 바꾸지는 않음.
 # dic1 = {'a':1, 'b':2, 'c':3}
 # print(dic1.items())
 # print(dic1)

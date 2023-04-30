@@ -1,6 +1,5 @@
 import lecture06_2
 
-#
 # functionTest.add(4,3 )
 # print(functionTest.result)
 

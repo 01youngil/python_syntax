@@ -5,9 +5,7 @@
 
 #기본 while문 예제
 # treeHits = 0
-#
 # while treeHits < 10:
-#
 #     treeHits += 1 #뒤와 같이 표현도 가능. treeHits = treeHits +1
 #     print("나무를 %s번 찍었습니다" % treeHits)
 #     if treeHits == 10:
@@ -21,7 +19,6 @@
 #     listNum1 = int(input("임의이 값을 입력하세요"))
 #     lst.append(listNum1)
 #     a += 1
-#
 # print(lst)
 
 # #리스트 연습문제2 A형 또다른 풀이.
@@ -32,21 +29,20 @@
 # while a < listNum:
 #     lst.append(random.randint(1, 10))
 #     a += 1
-#
 # print(lst)
 
-# # #리스트 연습문제2 B형  110p.
+# #리스트 연습문제2 B형  110p.
 # listNum = int(input("리스트의 크기를 입력하세요"))
 # a = 0
 # lst =[]
 # while a < listNum:
-#     listNum1 = int(input("임의이 값을 입력하세요"))
+#     listNum1 = int(input("임의의 값을 입력하세요"))
 #     lst.append(listNum1)
 #     a += 1
 # if int(input("찾을 값을 입력하시오")) in lst:
-#     print("yes")
+#     print("해당 값이 리스트에 존재합니다.")
 # else:
-#     print("no")
+#     print("해당 값이 리스트에 존재하지 않습니다.")
 
 #while문 break문 예제
 # treeHits = 0
@@ -57,9 +53,9 @@
 #         print("나무가 넘어갑니다.")
 #         break
 
-#연습문제 3장 문제2.
+# #연습문제 3장 문제2.
 # import random
-#
+
 # print("숫자 맞추기 게임")
 # com = random.randint(1, 10)
 # while True:
@@ -73,8 +69,7 @@
 #         print('더 작은 숫자를 입력하세요')
 
 
-#while문 continue문 홀수만 출력 예제
-#
+# #while문 continue문 홀수만 출력 예제
 # number = 0
 # while number < 100:
 #     number = number +1
@@ -82,7 +77,7 @@
 #         continue
 #     print(number)
 
-#while문 continue문 나무찍기 예제
+# #while문 continue문 나무찍기 예제
 # treeHits = 1
 # while True:
 #     if treeHits <= 10:
@@ -93,14 +88,13 @@
 #     break
 
 
-# #for문 기본 예제1
+#for문 기본 예제1
 # lista = ['one', 'two', 'three']
-#
 # for a in lista:
 #     print(a)
 
 
-##for문 예제2
+#for문 예제2
 # lista = [90, 25, 67, 45, 80]
 # number = 0
 # for a in lista:
@@ -112,14 +106,13 @@
 
 
 
-#튜플로 구성된 리스트
-
+# #튜플로 구성된 리스트
 # tupleList = [(1,2), (3,4), (5,6)]
 # for (a,b) in tupleList:
 #     print(a + b)
 
 
-##for문과 continue
+#for문과 continue
 # lista = [90, 25, 67, 45, 80]
 # number = 0
 # for a in lista:
