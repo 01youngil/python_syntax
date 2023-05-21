@@ -21,6 +21,8 @@ print(countNum)
 a = "hobby"
 findNum = a.find('o')
 print(findNum)
+# 문자열 길이 출력
+print(len(a))
 
 #2-1.찾았을때 없을 경구 -1 return
 a = "hobby"
